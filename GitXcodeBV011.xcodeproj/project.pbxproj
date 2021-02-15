@@ -10,6 +10,16 @@
 		AD830FD725DADA5700FC63B9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD830FD625DADA5700FC63B9 /* main.cpp */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AD83100D25DAF3A400FC63B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD83100925DAF3A300FC63B9 /* Zadachka2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AD830FFF25DAF3A300FC63B9;
+			remoteInfo = Zadachka2;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		AD830FD125DADA5700FC63B9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -25,6 +35,7 @@
 /* Begin PBXFileReference section */
 		AD830FD325DADA5700FC63B9 /* GitXcodeBV011 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GitXcodeBV011; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD830FD625DADA5700FC63B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AD83100925DAF3A300FC63B9 /* Zadachka2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Zadachka2.xcodeproj; path = ../Zadachka2/Zadachka2.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +52,7 @@
 		AD830FCA25DADA5700FC63B9 = {
 			isa = PBXGroup;
 			children = (
+				AD83100925DAF3A300FC63B9 /* Zadachka2.xcodeproj */,
 				AD830FD525DADA5700FC63B9 /* GitXcodeBV011 */,
 				AD830FD425DADA5700FC63B9 /* Products */,
 			);
@@ -60,6 +72,14 @@
 				AD830FD625DADA5700FC63B9 /* main.cpp */,
 			);
 			path = GitXcodeBV011;
+			sourceTree = "<group>";
+		};
+		AD83100A25DAF3A300FC63B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD83100E25DAF3A400FC63B9 /* Zadachka2 */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,12 +126,28 @@
 			mainGroup = AD830FCA25DADA5700FC63B9;
 			productRefGroup = AD830FD425DADA5700FC63B9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AD83100A25DAF3A300FC63B9 /* Products */;
+					ProjectRef = AD83100925DAF3A300FC63B9 /* Zadachka2.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				AD830FD225DADA5700FC63B9 /* GitXcodeBV011 */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AD83100E25DAF3A400FC63B9 /* Zadachka2 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = Zadachka2;
+			remoteRef = AD83100D25DAF3A400FC63B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AD830FCF25DADA5700FC63B9 /* Sources */ = {
